@@ -1,7 +1,0 @@
-{
-    "name": "sunilsagar/m2test",
-    "description": "test",
-    "type": "composer-plugin",
-    "minimum-stability": "stable",
-    "require": {}
-}
