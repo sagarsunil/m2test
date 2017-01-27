@@ -1,8 +1,0 @@
-{
-    "name": "sunilsagar/m2test",
-    "description": "test",
-    "type": "library",
-    "license": "magentotest",
-    "minimum-stability": "dev",
-    "require": {}
-}
