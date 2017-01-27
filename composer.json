@@ -1,0 +1,8 @@
+{
+    "name": "sagarsunil/m2test",
+    "description": "rtest",
+    "type": "library",
+    "license": "0.5",
+    "minimum-stability": "stable",
+    "require": {}
+}
