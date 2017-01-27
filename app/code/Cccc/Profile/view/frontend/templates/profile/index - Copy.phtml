@@ -1,0 +1,28 @@
+<?php
+/**
+ * Copyright © 2015 cccccommerce. All rights reserved.
+ */
+?>
+<?php
+/**
+ * {{controller}} {{action}} template
+ *
+ * @var $block \Cccc\Profile\Block\Profile\Index
+ */
+
+
+echo $block->hello;
+
+$productCollection = $block->getProfiles();
+
+
+foreach ($productCollection as $_productCollection) {
+	echo '<pre>';print_r($_productCollection->getData());
+}
+
+
+//echo '<pre>';print_r($block->getProfiles());
+
+?>
+<br/>
+update content from Profile\view\frontend\templates\profile\index.phtml

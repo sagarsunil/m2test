@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Cccc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Cccc_Profile::cccc_profilegrid_index" title="Manage Profiles" module="Cccc_Profile" parent="" sortOrder="20" dependsOnModule="Cccc_Profile" action="profile/profilegrid/index" resource="Cccc_Profile::cccc_profilegrid_index"/>
+<!--AddMenu-->
+    </menu>
+</config>

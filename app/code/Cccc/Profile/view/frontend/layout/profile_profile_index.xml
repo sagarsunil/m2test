@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+	 <head>
+        <script src="Cccc_Profile::js/bxslider.js"/>
+        <link src="js/bxslider.js"/>
+     </head> 	
+     <body>	
+        <referenceContainer name="content">			
+			<block class="Cccc\Profile\Block\Profile\Index" name="profile_index" template="profile/index.phtml">
+			</block>
+        </referenceContainer>      
+    </body>
+</page>
